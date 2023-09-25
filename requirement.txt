@@ -1,0 +1,6 @@
+Scikit learn
+Flask
+Numpy
+Pandas
+Matplotlib
+Pickle
