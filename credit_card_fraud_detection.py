@@ -586,7 +586,9 @@ threshold = thresholds[np.argmax(tpr - fpr)]
 clf.coef_
 
 coefficient = pd.concat([pd.DataFrame(x.colums) , pd.DataFrame(np.transpose(clf.coef_))] , axis = 1)
-coefficient.coulms = ['Featrue' , 'Importance Coefficient']n
+coefficient.coulms = ['Featrue' , 'Importance Coefficient']
+
+# Deu to low computing power in our computer , Take very much time during training .
 
 
 
