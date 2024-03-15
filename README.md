@@ -1,5 +1,5 @@
 # Credit-card-fraud-detection-Using-decision-tree
-![alt text](https://www.google.com/imgres?q=credit%20card%20fraud%20detection%20photo&imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC5612AQFRXtqWj6slMQ%2Farticle-cover_image-shrink_600_2000%2F0%2F1646468365430%3Fe%3D2147483647%26v%3Dbeta%26t%3DasH7xaLdM0xT_kOAuCmaDSA29fzyI0uWukg5sLt4vAM&imgrefurl=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fcredit-card-fraud-detection-using-data-science-sanjaya-kumar-khadanga&docid=xegEjmuTkmg5nM&tbnid=6uEkz549BShUOM&vet=12ahUKEwiJraTCrvaEAxXTi2MGHVhjDP4QM3oECFQQAA..i&w=601&h=402&hcb=2&ved=2ahUKEwiJraTCrvaEAxXTi2MGHVhjDP4QM3oECFQQAA)
+![alt text](https://kutia.net/app/uploads/2021/09/Eras-Post-Web.png)
 
 Process Work for Data Scientist
 
