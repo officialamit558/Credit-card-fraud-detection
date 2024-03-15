@@ -14,6 +14,9 @@ Process Work for Data Scientist
 9) In Confusion Matrix we find the Accuracy , Prediction
 10) Finaly Import the model in form of  Pickle formate
 
+# Model Training 
+ ## Architecture
+  #### Decision Tree Classifier  , Support Vector Machine , XGBoost , Random Forest , Logistic Regression
 
 Work for Software Engineers
 Model Deployment are the More important for production in industries.
@@ -23,7 +26,7 @@ Tools Kit
 1) Used HTML , CSS and some JS
 2) Used PAAS(Platform as a Service)  Like Heroku
 
-# File Formate
+# File Format
 1) Procfile
 2) requirement.text
 3) app.py
