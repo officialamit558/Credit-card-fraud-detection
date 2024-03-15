@@ -18,6 +18,10 @@ Process Work for Data Scientist
  ## Architecture
   #### Decision Tree Classifier  , Support Vector Machine , XGBoost , Random Forest , Logistic Regression
 
+ ## Result 
+  #### Accuracy = 98.6 %
+  #### Recall = 91 
+
 Work for Software Engineers
 Model Deployment are the More important for production in industries.
 
@@ -32,6 +36,17 @@ Tools Kit
 3) app.py
 4) Model.pkl
 5) ML.csv
+
+# Web App
+
+## Procfile
+  ### Contain the type of app
+
+ # Requirement.txt
+   ### Contain the library dependency
+
+ # Templates 
+   ### File required for rendring perpose
 
 
    
