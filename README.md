@@ -1,5 +1,5 @@
 # Credit-card-fraud-detection-Using-decision-tree
-
+![alt text](https://kutia.net/app/uploads/2021/09/Eras-Post-Web.png)
 
 Process Work for Data Scientist
 
@@ -14,21 +14,39 @@ Process Work for Data Scientist
 9) In Confusion Matrix we find the Accuracy , Prediction
 10) Finaly Import the model in form of  Pickle formate
 
+# Model Training 
+ ## Architecture
+  #### Decision Tree Classifier  , Support Vector Machine , XGBoost , Random Forest , Logistic Regression
+
+ ## Result 
+  #### Accuracy = 98.6 %
+  #### Recall = 91 
 
 Work for Software Engineers
 Model Deployment are the More important for production in industries.
 
-For Deployment 
+# For Deployment 
 Tools Kit 
 1) Used HTML , CSS and some JS
 2) Used PAAS(Platform as a Service)  Like Heroku
 
-File Formate
+# File Format
 1) Procfile
 2) requirement.text
 3) app.py
-4) Model.py
+4) Model.pkl
 5) ML.csv
+
+# Web App
+
+## Procfile
+  ### Contain the type of app
+
+ # Requirement.txt
+   ### Contain the library dependency
+
+ # Templates 
+   ### File required for rendring perpose
 
 
    
