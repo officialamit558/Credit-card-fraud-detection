@@ -1,41 +1,32 @@
 # app.py
 from flask import Flask, render_template, request
 import pandas as pd
+import pickle 
+import numpy as np
 import joblib
 
 app = Flask(__name__)
 
-# Load your trained machine learning model using joblib
-model = joblib.load('fraud_detection_model.pkl')
+# load the model from disk
+filename = 'model.pkl'
+clf = pickle.load(open(filename, 'rb'))
+
+app = Flask(__name__)
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+def home():
+	return render_template('home.html')
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods = ['POST'])
 def predict():
-    if request.method == 'POST':
-        # Get user input data from the form
-        v1 = float(request.form['v1'])
-        v2 = float(request.form['v2'])
-        # ... repeat for other v features and amount
-        amount = float(request.form['amount'])
+	if request.method == 'POST':
+		me = request.form['message']
+		message = [float(x) for x in me.split()]
+		vect = np.array(message).reshape(1, -1)
+		my_prediction = clf.predict(vect)
+	return render_template('result.html',prediction = my_prediction)
 
-        # Create a pandas DataFrame with the user input
-        user_data = pd.DataFrame({
-            'V1': [v1],
-            'V2': [v2],
-            # ... repeat for other v features and amount
-            'Amount': [amount]
-        })
-
-        # Use your trained model to make predictions
-        prediction = model.predict(user_data)
-
-        # Render a template with the prediction result
-        return render_template('result.html', prediction=prediction[0])
 
 if __name__ == '__main__':
-    app.run(debug=True)
-
+	app.run(debug=True)
 
