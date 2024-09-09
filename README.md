@@ -1,7 +1,7 @@
 # Credit-card-fraud-detection-Using-decision-tree
 ![alt text](https://kutia.net/app/uploads/2021/09/Eras-Post-Web.png)
 
-Process Work for Data Scientist
+Work flow for Data Scientist.
 
 1) Take Dataset from kaggle using the opendatasets library
 2) Wrangling or manuplating dataset and remove garbage feature
