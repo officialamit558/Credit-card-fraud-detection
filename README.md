@@ -1,4 +1,4 @@
-# Credit-card-fraud-detection-Using-decision-tree
+# CREDIT CARD FRAUD DETECTION USING MACHINE LEARNING ALGORITHM
 ![alt text](https://kutia.net/app/uploads/2021/09/Eras-Post-Web.png)
 
 Work flow for Data Scientist.
